@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About — Draeven House Lines | Independent interior & architecture journal</title>
+  <meta name="description" content="Draeven House Lines is an independent editorial publication exploring interior design, architecture, materials, lighting, and the art of living well through thoughtful long-form articles.">
+  <meta name="author" content="Draeven House Lines Editorial">
+  <link rel="canonical" href="https://www.draevenhouselines.com/about.html">
+  <!-- Open Graph -->
+  <meta property="og:title" content="About — Draeven House Lines">
+  <meta property="og:description" content="Independent editorial publication on interior design, architecture and the built environment.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.draevenhouselines.com/about.html">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1200&h=630&fit=crop">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Schema markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "name": "About Draeven House Lines",
+    "description": "Independent editorial publication on interior design, architecture and the built environment.",
+    "url": "https://www.draevenhouselines.com/about.html",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Draeven House Lines"
+    }
+  }
+  </script>
+  <style>
+    /* ---------- RESET & BASE ---------- */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --paper: #fbf9f7;
+      --ink: #1e1e1e;
+      --ink-light: #3f3f3f;
+      --border: #e2ddd7;
+      --accent: #b26b4b;
+      --accent-soft: #e8d9d0;
+      --card-bg: #ffffff;
+      --muted: #7a6e66;
+      --font-serif: 'Georgia', 'Times New Roman', 'Times', serif;
+      --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      --max-width: 1280px;
+      --reading-width: 720px;
+    }
+
+    body {
+      background: var(--paper);
+      color: var(--ink);
+      font-family: var(--font-sans);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      border-top: 4px solid var(--accent);
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+      height: auto;
+    }
+
+    /* ---------- TYPOGRAPHY ---------- */
+    h1, h2, h3, h4 {
+      font-family: var(--font-serif);
+      font-weight: 400;
+      letter-spacing: -0.02em;
+      line-height: 1.2;
+    }
+
+    h1 {
+      font-size: 2.6rem;
+    }
+
+    h2 {
+      font-size: 1.9rem;
+      margin-bottom: 0.5rem;
+    }
+
+    h3 {
+      font-size: 1.4rem;
+      margin-bottom: 0.3rem;
+    }
+
+    p {
+      margin-bottom: 1.2rem;
+      color: var(--ink-light);
+      font-size: 1.05rem;
+    }
+
+    .meta {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      font-weight: 500;
+    }
+
+    /* ---------- LAYOUT ---------- */
+    .container {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+
+    .layout-main {
+      display: grid;
+      grid-template-columns: 1fr 320px;
+      gap: 4rem;
+      align-items: start;
+    }
+
+    /* ---------- HEADER ---------- */
+    .site-header {
+      background: var(--paper);
+      border-bottom: 1px solid var(--border);
+      padding: 1.8rem 0 1.4rem;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .header-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+    }
+
+    .logo {
+      font-family: var(--font-serif);
+      font-size: 1.9rem;
+      letter-spacing: -0.03em;
+      color: var(--ink);
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+    }
+
+    .logo span {
+      color: var(--accent);
+    }
+
+    .main-nav ul {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+      font-size: 0.9rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .main-nav a {
+      padding-bottom: 0.25rem;
+      border-bottom: 2px solid transparent;
+      transition: border-color 0.2s;
+    }
+
+    .main-nav a:hover {
+      border-bottom-color: var(--accent);
+    }
+
+    .search-bar {
+      display: flex;
+      align-items: center;
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 30px;
+      padding: 0.4rem 1rem;
+      min-width: 220px;
+    }
+
+    .search-bar input {
+      border: none;
+      background: transparent;
+      font-family: var(--font-sans);
+      font-size: 0.85rem;
+      padding: 0.3rem 0.5rem;
+      width: 100%;
+      outline: none;
+    }
+
+    .search-bar input::placeholder {
+      color: #a99f98;
+      font-style: italic;
+    }
+
+    .search-bar button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 1.1rem;
+      color: var(--muted);
+    }
+
+    /* ---------- ABOUT PAGE SPECIFIC ---------- */
+    .about-hero {
+      padding: 3.5rem 0 2rem;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 3rem;
+    }
+
+    .about-hero h1 {
+      max-width: 780px;
+      font-size: 2.8rem;
+      margin-bottom: 0.8rem;
+    }
+
+    .about-hero .subhead {
+      max-width: 680px;
+      font-size: 1.2rem;
+      color: var(--muted);
+      font-family: var(--font-serif);
+      font-style: italic;
+    }
+
+    .about-content {
+      display: grid;
+      grid-template-columns: 1fr 320px;
+      gap: 4rem;
+      align-items: start;
+    }
+
+    .about-main {
+      max-width: var(--reading-width);
+    }
+
+    .about-main h2 {
+      margin-top: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .about-main h2:first-of-type {
+      margin-top: 0;
+    }
+
+    .about-main p {
+      font-size: 1.08rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .about-main .pull-quote {
+      font-family: var(--font-serif);
+      font-size: 1.5rem;
+      line-height: 1.4;
+      color: var(--ink);
+      border-left: 4px solid var(--accent);
+      padding-left: 2rem;
+      margin: 2.5rem 0;
+      font-style: italic;
+    }
+
+    .about-main .pull-quote p {
+      font-size: inherit;
+      color: inherit;
+      font-style: inherit;
+      margin-bottom: 0;
+    }
+
+    .about-values {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      margin: 2.5rem 0;
+    }
+
+    .about-values .value-item {
+      border-top: 1px solid var(--border);
+      padding-top: 1.2rem;
+    }
+
+    .about-values .value-item h3 {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .about-values .value-item p {
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+
+    .editorial-team {
+      margin: 3rem 0;
+    }
+
+    .editorial-team h2 {
+      margin-bottom: 2rem;
+    }
+
+    .team-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+    }
+
+    .team-member {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      padding: 1.8rem;
+      border-radius: 2px;
+    }
+
+    .team-member .name {
+      font-family: var(--font-serif);
+      font-size: 1.3rem;
+      font-weight: 400;
+      margin-bottom: 0.2rem;
+    }
+
+    .team-member .role {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--accent);
+      font-weight: 600;
+      margin-bottom: 0.8rem;
+    }
+
+    .team-member p {
+      font-size: 0.95rem;
+      margin-bottom: 0;
+      color: var(--muted);
+    }
+
+    /* ---------- SIDEBAR ---------- */
+    .sidebar {
+      position: sticky;
+      top: 100px;
+    }
+
+    .sidebar-widget {
+      margin-bottom: 3rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 2rem;
+    }
+
+    .sidebar-widget h3 {
+      font-size: 1.1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-family: var(--font-sans);
+      font-weight: 600;
+      margin-bottom: 1.2rem;
+      color: var(--ink);
+    }
+
+    .sidebar-widget ul {
+      list-style: none;
+    }
+
+    .sidebar-widget li {
+      margin-bottom: 1rem;
+      font-size: 0.95rem;
+      line-height: 1.4;
+    }
+
+    .sidebar-widget li a:hover {
+      color: var(--accent);
+    }
+
+    .sidebar-widget .meta {
+      font-size: 0.7rem;
+      display: block;
+      margin-top: 0.2rem;
+    }
+
+    .author-box {
+      background: #fff;
+      border: 1px solid var(--border);
+      padding: 1.5rem;
+      border-radius: 2px;
+      margin-bottom: 3rem;
+    }
+
+    .author-box p {
+      font-size: 0.9rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .author-box .name {
+      font-family: var(--font-serif);
+      font-size: 1.2rem;
+      font-weight: 400;
+      margin-bottom: 0.2rem;
+    }
+
+    /* ---------- NEWSLETTER ---------- */
+    .newsletter {
+      background: #f4f0ec;
+      padding: 3.5rem 2rem;
+      text-align: center;
+      border-radius: 2px;
+      margin: 3rem 0;
+    }
+
+    .newsletter h2 {
+      font-size: 1.8rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .newsletter p {
+      max-width: 500px;
+      margin: 0 auto 1.8rem;
+      font-family: var(--font-serif);
+      font-style: italic;
+    }
+
+    .newsletter-form {
+      display: flex;
+      max-width: 480px;
+      margin: 0 auto;
+      gap: 0.5rem;
+    }
+
+    .newsletter-form input {
+      flex: 1;
+      padding: 0.9rem 1.2rem;
+      border: 1px solid var(--border);
+      background: #fff;
+      font-family: var(--font-sans);
+      font-size: 0.9rem;
+      outline: none;
+    }
+
+    .newsletter-form button {
+      background: var(--ink);
+      color: #fff;
+      border: none;
+      padding: 0 1.8rem;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      cursor: pointer;
+      font-weight: 500;
+      transition: background 0.2s;
+    }
+
+    .newsletter-form button:hover {
+      background: var(--accent);
+    }
+
+    /* ---------- INFO SECTIONS ---------- */
+    .info-sections {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 2rem;
+      margin: 4rem 0 2rem;
+      padding-top: 3rem;
+      border-top: 1px solid var(--border);
+    }
+
+    .info-sections h4 {
+      font-size: 1rem;
+      font-family: var(--font-sans);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-bottom: 1rem;
+    }
+
+    .info-sections p {
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-bottom: 0.6rem;
+    }
+
+    .info-sections a {
+      text-decoration: underline;
+      text-decoration-color: var(--border);
+      text-underline-offset: 3px;
+    }
+
+    .info-sections a:hover {
+      text-decoration-color: var(--accent);
+    }
+
+    /* ---------- FOOTER ---------- */
+    .site-footer {
+      border-top: 1px solid var(--border);
+      padding: 3rem 0 2rem;
+      margin-top: 3rem;
+      font-size: 0.8rem;
+      color: var(--muted);
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+
+    .footer-links a:hover {
+      color: var(--ink);
+    }
+
+    /* ---------- RESPONSIVE ---------- */
+    @media (max-width: 1024px) {
+      .layout-main,
+      .about-content {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+      }
+
+      .sidebar {
+        position: static;
+      }
+
+      .info-sections {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        padding: 0 1.5rem;
+      }
+
+      .header-inner {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .main-nav ul {
+        flex-wrap: wrap;
+        gap: 1.2rem;
+      }
+
+      .search-bar {
+        width: 100%;
+      }
+
+      .about-hero h1 {
+        font-size: 2.2rem;
+      }
+
+      .about-values {
+        grid-template-columns: 1fr;
+      }
+
+      .team-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .info-sections {
+        grid-template-columns: 1fr;
+      }
+
+      .newsletter-form {
+        flex-direction: column;
+      }
+
+      .newsletter-form button {
+        padding: 0.9rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">Draeven <span>House</span> Lines</div>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="terms.html">Terms Of Privacy</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="cookies.html">Cookies Policy</a></li>
+          <li><a href="disclaimer.html">Disclaimer</a></li>
+          <li><a href="categories.html">Categories</a></li>
+        </ul>
+      </nav>
+      <div class="search-bar">
+        <input type="search" id="searchInput" placeholder="Search articles…" aria-label="Search articles">
+        <button aria-label="Submit search">⌕</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <div class="container">
+    <!-- ABOUT HERO -->
+    <section class="about-hero">
+      <h1>Independent. Thoughtful. Architectural.</h1>
+      <p class="subhead">Draeven House Lines is a journal for people who believe that the spaces we inhabit shape the lives we lead.</p>
+    </section>
+
+    <!-- ABOUT GRID: MAIN + SIDEBAR -->
+    <div class="about-content">
+      <!-- MAIN COLUMN -->
+      <main class="about-main">
+        <h2>Our story</h2>
+        <p>Draeven House Lines began as a quiet rebellion against the fleeting, image-driven world of design media. We wanted to create a place where architecture and interiors could be discussed with the same rigour and lyricism as literature or art — where a well-proportioned window, a honest material, or a carefully placed lamp could be examined not as trends, but as expressions of how we choose to live.</p>
+        <p>Founded in 2021 by editor Elena Marchetti, a former interior designer and architecture writer, the publication has grown into an independent journal read by homeowners, architects, designers, and anyone who cares about the built environment. We are entirely reader-supported and free from advertising influence.</p>
+
+        <div class="pull-quote">
+          <p>“Good design is a quiet act of care — for the people who live in a space and for the world outside it.”</p>
+        </div>
+
+        <h2>What we believe</h2>
+        <p>Every article we publish is guided by a simple set of principles. We look for work that is honest, enduring, and deeply considered. We value restraint over excess, texture over gloss, and light over noise. And we believe that the best interiors are not those that follow a formula, but those that respond intelligently to the people who use them.</p>
+
+        <div class="about-values">
+          <div class="value-item">
+            <h3>Depth over speed</h3>
+            <p>We publish long-form articles, not listicles. Our writers take the time to understand a subject — whether it’s the chemistry of lime plaster or the psychology of bedroom lighting.</p>
+          </div>
+          <div class="value-item">
+            <h3>Material honesty</h3>
+            <p>We champion natural, locally sourced materials and craftspeople who understand them. A building should age gracefully, not fight its surroundings.</p>
+          </div>
+          <div class="value-item">
+            <h3>Human scale</h3>
+            <p>Architecture and interiors are ultimately for people. We focus on proportion, comfort, and the small details that make a space feel like home.</p>
+          </div>
+          <div class="value-item">
+            <h3>Independent voice</h3>
+            <p>We are not sponsored by brands. Our recommendations come from genuine research and editorial judgement, never from commercial interest.</p>
+          </div>
+        </div>
+
+        <h2>Editorial team</h2>
+        <p>Draeven House Lines is written by a small, dedicated team of writers and designers who share a passion for the built environment.</p>
+
+        <div class="editorial-team">
+          <div class="team-grid">
+            <div class="team-member">
+              <div class="name">Elena Marchetti</div>
+              <div class="role">Editor-in-chief</div>
+              <p>Elena is an architecture writer and former interior designer. She founded Draeven House Lines to bring depth and nuance to design journalism. Her work has appeared in several international design publications.</p>
+            </div>
+            <div class="team-member">
+              <div class="name">James Whitfield</div>
+              <div class="role">Senior Editor, Architecture</div>
+              <p>James is a practising architect and critic. He writes about quiet modernism, adaptive reuse, and the relationship between buildings and landscape. He is based in Edinburgh.</p>
+            </div>
+            <div class="team-member">
+              <div class="name">Mira Okafor</div>
+              <div class="role">Contributing Editor, Interiors</div>
+              <p>Mira is a stylist and writer with a background in textile design. She covers material culture, colour theory, and the rituals of domestic life. She lives in Lagos and London.</p>
+            </div>
+            <div class="team-member">
+              <div class="name">Lucas Brandt</div>
+              <div class="role">Contributing Writer, Lighting & Technology</div>
+              <p>Lucas is a lighting designer and educator. He writes about the invisible architecture of light, from daylighting strategies to the psychology of warm dimming.</p>
+            </div>
+          </div>
+        </div>
+
+        <h2>How we work</h2>
+        <p>We accept pitches from writers and designers who have something original to say. Every article is edited for clarity, accuracy, and style. We fact-check our claims and credit our sources. When we review a product or material, we do so independently — we never accept payment for coverage.</p>
+        <p>Our readers are our only stakeholders. If you value what we do, the best way to support us is to subscribe to our weekly newsletter and share our articles with others who might enjoy them.</p>
+      </main>
+
+      <!-- SIDEBAR -->
+      <aside class="sidebar">
+        <!-- EDITOR BOX -->
+        <div class="author-box">
+          <div class="name">Elena Marchetti</div>
+          <p style="font-size: 0.85rem;">Editor-in-chief</p>
+          <p style="font-size: 0.85rem; color: var(--muted);">Elena is an architecture writer and former interior designer. She founded Draeven House Lines to bring depth and nuance to design journalism.</p>
+        </div>
+
+        <!-- POPULAR ARTICLES -->
+        <div class="sidebar-widget">
+          <h3>Most read</h3>
+          <ul>
+            <li><a href="#">The New Minimalism: Warmth, Texture and Restraint</a><span class="meta">Interiors · 12 min</span></li>
+            <li><a href="#">Concrete, Glass and Light: A Case for Quiet Modernism</a><span class="meta">Architecture · 9 min</span></li>
+            <li><a href="#">Stone, Timber, Clay: A Guide to Honest Materials</a><span class="meta">Materials · 11 min</span></li>
+            <li><a href="#">Layered Light: The Quiet Power of Illumination</a><span class="meta">Lighting · 7 min</span></li>
+          </ul>
+        </div>
+
+        <!-- CATEGORIES -->
+        <div class="sidebar-widget">
+          <h3>Categories</h3>
+          <ul>
+            <li><a href="#">Interior Design</a> <span class="meta">(24)</span></li>
+            <li><a href="#">Architecture</a> <span class="meta">(18)</span></li>
+            <li><a href="#">Home Design</a> <span class="meta">(16)</span></li>
+            <li><a href="#">Materials</a> <span class="meta">(12)</span></li>
+            <li><a href="#">Space Planning</a> <span class="meta">(9)</span></li>
+            <li><a href="#">Lighting</a> <span class="meta">(11)</span></li>
+            <li><a href="#">Furniture</a> <span class="meta">(8)</span></li>
+            <li><a href="#">Modern Homes</a> <span class="meta">(14)</span></li>
+          </ul>
+        </div>
+
+        <!-- EDITOR'S NOTE -->
+        <div class="sidebar-widget">
+          <h3>Editor’s note</h3>
+          <p style="font-size: 0.9rem; color: var(--muted);">“We believe good design is a quiet act of care — for the people who live in a space and for the world outside it. Every article we publish is written with that in mind.”</p>
+        </div>
+      </aside>
+    </div>
+
+    <!-- NEWSLETTER -->
+    <section class="newsletter">
+      <h2>Draeven House Lines — weekly</h2>
+      <p>One thoughtful email each Sunday. Articles, inspiration and practical design wisdom. No noise.</p>
+      <form class="newsletter-form" id="newsletterForm">
+        <input type="email" placeholder="Your email address" required aria-label="Email address">
+        <button type="submit">Subscribe</button>
+      </form>
+      <p style="font-size: 0.75rem; margin-top: 1rem; color: var(--muted);">We respect your inbox. Unsubscribe anytime.</p>
+    </section>
+
+    <!-- INFO SECTIONS -->
+    <div class="info-sections" id="about">
+      <div>
+        <h4>About</h4>
+        <p>Draeven House Lines is an independent editorial publication exploring interior design, architecture and the art of living well. We publish long-form articles, guides and criticism.</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>Editorial: <a href="mailto:hello@draevenhouselines.com">hello@draevenhouselines.com</a></p>
+        <p>We welcome thoughtful pitches and reader letters.</p>
+      </div>
+      <div>
+        <h4>Privacy</h4>
+        <p>We collect only the information you voluntarily provide (e.g. email for newsletter). We never sell or share your data.</p>
+      </div>
+      <div>
+        <h4>Terms &amp; Cookies</h4>
+        <p>By using this site you agree to our <a href="#">terms</a> and <a href="#">cookie policy</a>. We use minimal, functional cookies only.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="site-footer container">
+    <div>© 2025 Draeven House Lines. All rights reserved.</div>
+    <div class="footer-links">
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="cookies.html">Cookies</a>
+    </div>
+  </footer>
+
+  <!-- JAVASCRIPT -->
+  <script>
+    (function() {
+      // ---------- NEWSLETTER FORM (prevent actual submission) ----------
+      const newsletterForm = document.getElementById('newsletterForm');
+      newsletterForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        const emailInput = this.querySelector('input[type="email"]');
+        if (emailInput.value.trim() !== '') {
+          alert('Thank you for subscribing to Draeven House Lines. (This is a demo — no data is sent.)');
+          emailInput.value = '';
+        }
+      });
+
+      // ---------- SMOOTH SCROLL FOR INTERNAL LINKS (optional) ----------
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+          const href = this.getAttribute('href');
+          if (href === '#') return;
+          const target = document.querySelector(href);
+          if (target) {
+            e.preventDefault();
+            target.scrollIntoView({ behavior: 'smooth' });
+          }
+        });
+      });
+
+      // ---------- SIMPLE SEARCH REDIRECT (demo) ----------
+      const searchInput = document.getElementById('searchInput');
+      const searchButton = document.querySelector('.search-bar button');
+      
+      function performSearch() {
+        const query = searchInput.value.trim();
+        if (query) {
+          // In a real site, this would redirect to a search results page
+          alert('Search functionality is not implemented in this demo. You searched for: "' + query + '"');
+        }
+      }
+      
+      searchButton.addEventListener('click', performSearch);
+      searchInput.addEventListener('keyup', function(e) {
+        if (e.key === 'Enter') {
+          performSearch();
+        }
+      });
+    })();
+  </script>
+</body>
+</html>

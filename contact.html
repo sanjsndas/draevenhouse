@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Draeven House Lines</title>
+  <meta name="description" content="Reach the Draeven House Lines editorial team. Pitches, reader letters, and general enquiries about interior design and architecture journalism.">
+  <link rel="canonical" href="https://www.draevenhouselines.com/contact.html">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Contact — Draeven House Lines">
+  <meta property="og:description" content="We welcome thoughtful pitches, reader letters, and editorial enquiries.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.draevenhouselines.com/contact.html">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1200&h=630&fit=crop">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Schema markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "name": "Contact Draeven House Lines",
+    "description": "Editorial contact page for Draeven House Lines.",
+    "url": "https://www.draevenhouselines.com/contact.html",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Draeven House Lines"
+    }
+  }
+  </script>
+  <style>
+    /* ---------- RESET & BASE ---------- */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --paper: #fbf9f7;
+      --ink: #1e1e1e;
+      --ink-light: #3f3f3f;
+      --border: #e2ddd7;
+      --accent: #b26b4b;
+      --accent-soft: #e8d9d0;
+      --card-bg: #ffffff;
+      --muted: #7a6e66;
+      --font-serif: 'Georgia', 'Times New Roman', 'Times', serif;
+      --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      --max-width: 1280px;
+      --reading-width: 720px;
+    }
+
+    body {
+      background: var(--paper);
+      color: var(--ink);
+      font-family: var(--font-sans);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      border-top: 4px solid var(--accent);
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+      height: auto;
+    }
+
+    /* ---------- TYPOGRAPHY ---------- */
+    h1, h2, h3, h4 {
+      font-family: var(--font-serif);
+      font-weight: 400;
+      letter-spacing: -0.02em;
+      line-height: 1.2;
+    }
+
+    h1 {
+      font-size: 2.6rem;
+    }
+
+    h2 {
+      font-size: 1.9rem;
+      margin-bottom: 0.5rem;
+    }
+
+    h3 {
+      font-size: 1.4rem;
+      margin-bottom: 0.3rem;
+    }
+
+    p {
+      margin-bottom: 1.2rem;
+      color: var(--ink-light);
+      font-size: 1.05rem;
+    }
+
+    .meta {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      font-weight: 500;
+    }
+
+    /* ---------- LAYOUT ---------- */
+    .container {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+
+    .layout-main {
+      display: grid;
+      grid-template-columns: 1fr 320px;
+      gap: 4rem;
+      align-items: start;
+    }
+
+    /* ---------- HEADER ---------- */
+    .site-header {
+      background: var(--paper);
+      border-bottom: 1px solid var(--border);
+      padding: 1.8rem 0 1.4rem;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .header-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+    }
+
+    .logo {
+      font-family: var(--font-serif);
+      font-size: 1.9rem;
+      letter-spacing: -0.03em;
+      color: var(--ink);
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+    }
+
+    .logo span {
+      color: var(--accent);
+    }
+
+    .main-nav ul {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+      font-size: 0.9rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .main-nav a {
+      padding-bottom: 0.25rem;
+      border-bottom: 2px solid transparent;
+      transition: border-color 0.2s;
+    }
+
+    .main-nav a:hover {
+      border-bottom-color: var(--accent);
+    }
+
+    .search-bar {
+      display: flex;
+      align-items: center;
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 30px;
+      padding: 0.4rem 1rem;
+      min-width: 220px;
+    }
+
+    .search-bar input {
+      border: none;
+      background: transparent;
+      font-family: var(--font-sans);
+      font-size: 0.85rem;
+      padding: 0.3rem 0.5rem;
+      width: 100%;
+      outline: none;
+    }
+
+    .search-bar input::placeholder {
+      color: #a99f98;
+      font-style: italic;
+    }
+
+    .search-bar button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 1.1rem;
+      color: var(--muted);
+    }
+
+    /* ---------- CONTACT PAGE ---------- */
+    .contact-intro {
+      padding: 3.5rem 0 2.5rem;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 3rem;
+    }
+
+    .contact-intro h1 {
+      max-width: 780px;
+      font-size: 2.8rem;
+      margin-bottom: 0.8rem;
+    }
+
+    .contact-intro p {
+      max-width: 680px;
+      font-size: 1.2rem;
+      color: var(--muted);
+      font-family: var(--font-serif);
+      font-style: italic;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      margin-bottom: 4rem;
+    }
+
+    .contact-form {
+      background: #fff;
+      border: 1px solid var(--border);
+      padding: 2.5rem;
+      border-radius: 2px;
+    }
+
+    .contact-form h2 {
+      font-size: 1.8rem;
+      margin-bottom: 0.4rem;
+    }
+
+    .contact-form > p {
+      margin-bottom: 2rem;
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+
+    .form-group {
+      margin-bottom: 1.5rem;
+    }
+
+    .form-group label {
+      display: block;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      font-weight: 600;
+      margin-bottom: 0.4rem;
+      color: var(--ink);
+    }
+
+    .form-group input,
+    .form-group textarea,
+    .form-group select {
+      width: 100%;
+      padding: 0.85rem 1rem;
+      border: 1px solid var(--border);
+      background: var(--paper);
+      font-family: var(--font-sans);
+      font-size: 0.95rem;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    .form-group input:focus,
+    .form-group textarea:focus,
+    .form-group select:focus {
+      border-color: var(--accent);
+    }
+
+    .form-group textarea {
+      min-height: 160px;
+      resize: vertical;
+    }
+
+    .form-group select {
+      cursor: pointer;
+      appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%237a6e66' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 1rem center;
+    }
+
+    .form-submit {
+      background: var(--ink);
+      color: #fff;
+      border: none;
+      padding: 0.95rem 2.5rem;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      cursor: pointer;
+      font-weight: 500;
+      transition: background 0.2s;
+      width: 100%;
+      font-family: var(--font-sans);
+    }
+
+    .form-submit:hover {
+      background: var(--accent);
+    }
+
+    .form-note {
+      font-size: 0.75rem;
+      color: var(--muted);
+      margin-top: 1rem;
+      margin-bottom: 0;
+    }
+
+    /* Contact info panel */
+    .contact-info-panel {
+      display: flex;
+      flex-direction: column;
+      gap: 2.5rem;
+    }
+
+    .contact-info-block h3 {
+      font-size: 1.2rem;
+      margin-bottom: 0.75rem;
+      font-family: var(--font-serif);
+    }
+
+    .contact-info-block p {
+      font-size: 0.95rem;
+      color: var(--muted);
+      margin-bottom: 0.5rem;
+    }
+
+    .contact-info-block a {
+      color: var(--accent);
+      text-decoration: underline;
+      text-decoration-color: var(--accent-soft);
+      text-underline-offset: 3px;
+    }
+
+    .contact-info-block a:hover {
+      text-decoration-color: var(--accent);
+    }
+
+    .contact-divider {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 0;
+    }
+
+    .response-promise {
+      background: #f4f0ec;
+      padding: 1.8rem;
+      border-radius: 2px;
+      border-left: 3px solid var(--accent);
+    }
+
+    .response-promise p {
+      font-size: 0.95rem;
+      margin-bottom: 0;
+      font-style: italic;
+      font-family: var(--font-serif);
+      color: var(--ink-light);
+    }
+
+    .contact-details-list {
+      list-style: none;
+    }
+
+    .contact-details-list li {
+      margin-bottom: 1rem;
+      font-size: 0.95rem;
+      color: var(--muted);
+      padding-left: 1.5rem;
+      position: relative;
+    }
+
+    .contact-details-list li::before {
+      content: "—";
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+    }
+
+    /* ---------- SIDEBAR ---------- */
+    .sidebar {
+      position: sticky;
+      top: 100px;
+    }
+
+    .sidebar-widget {
+      margin-bottom: 3rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 2rem;
+    }
+
+    .sidebar-widget h3 {
+      font-size: 1.1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-family: var(--font-sans);
+      font-weight: 600;
+      margin-bottom: 1.2rem;
+      color: var(--ink);
+    }
+
+    .sidebar-widget ul {
+      list-style: none;
+    }
+
+    .sidebar-widget li {
+      margin-bottom: 1rem;
+      font-size: 0.95rem;
+      line-height: 1.4;
+    }
+
+    .sidebar-widget li a:hover {
+      color: var(--accent);
+    }
+
+    .sidebar-widget .meta {
+      font-size: 0.7rem;
+      display: block;
+      margin-top: 0.2rem;
+    }
+
+    .author-box {
+      background: #fff;
+      border: 1px solid var(--border);
+      padding: 1.5rem;
+      border-radius: 2px;
+      margin-bottom: 3rem;
+    }
+
+    .author-box p {
+      font-size: 0.9rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .author-box .name {
+      font-family: var(--font-serif);
+      font-size: 1.2rem;
+      font-weight: 400;
+      margin-bottom: 0.2rem;
+    }
+
+    /* ---------- NEWSLETTER ---------- */
+    .newsletter {
+      background: #f4f0ec;
+      padding: 3.5rem 2rem;
+      text-align: center;
+      border-radius: 2px;
+      margin: 3rem 0;
+    }
+
+    .newsletter h2 {
+      font-size: 1.8rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .newsletter p {
+      max-width: 500px;
+      margin: 0 auto 1.8rem;
+      font-family: var(--font-serif);
+      font-style: italic;
+    }
+
+    .newsletter-form {
+      display: flex;
+      max-width: 480px;
+      margin: 0 auto;
+      gap: 0.5rem;
+    }
+
+    .newsletter-form input {
+      flex: 1;
+      padding: 0.9rem 1.2rem;
+      border: 1px solid var(--border);
+      background: #fff;
+      font-family: var(--font-sans);
+      font-size: 0.9rem;
+      outline: none;
+    }
+
+    .newsletter-form button {
+      background: var(--ink);
+      color: #fff;
+      border: none;
+      padding: 0 1.8rem;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      cursor: pointer;
+      font-weight: 500;
+      transition: background 0.2s;
+    }
+
+    .newsletter-form button:hover {
+      background: var(--accent);
+    }
+
+    /* ---------- INFO SECTIONS ---------- */
+    .info-sections {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 2rem;
+      margin: 4rem 0 2rem;
+      padding-top: 3rem;
+      border-top: 1px solid var(--border);
+    }
+
+    .info-sections h4 {
+      font-size: 1rem;
+      font-family: var(--font-sans);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-bottom: 1rem;
+    }
+
+    .info-sections p {
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-bottom: 0.6rem;
+    }
+
+    .info-sections a {
+      text-decoration: underline;
+      text-decoration-color: var(--border);
+      text-underline-offset: 3px;
+    }
+
+    .info-sections a:hover {
+      text-decoration-color: var(--accent);
+    }
+
+    /* ---------- FOOTER ---------- */
+    .site-footer {
+      border-top: 1px solid var(--border);
+      padding: 3rem 0 2rem;
+      margin-top: 3rem;
+      font-size: 0.8rem;
+      color: var(--muted);
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+
+    .footer-links a:hover {
+      color: var(--ink);
+    }
+
+    /* ---------- RESPONSIVE ---------- */
+    @media (max-width: 1024px) {
+      .layout-main {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+      }
+
+      .sidebar {
+        position: static;
+      }
+
+      .info-sections {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        padding: 0 1.5rem;
+      }
+
+      .header-inner {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .main-nav ul {
+        flex-wrap: wrap;
+        gap: 1.2rem;
+      }
+
+      .search-bar {
+        width: 100%;
+      }
+
+      .contact-intro h1 {
+        font-size: 2.2rem;
+      }
+
+      .contact-form {
+        padding: 1.8rem;
+      }
+
+      .info-sections {
+        grid-template-columns: 1fr;
+      }
+
+      .newsletter-form {
+        flex-direction: column;
+      }
+
+      .newsletter-form button {
+        padding: 0.9rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">Draeven <span>House</span> Lines</div>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="terms.html">Terms Of Privacy</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="cookies.html">Cookies Policy</a></li>
+          <li><a href="disclaimer.html">Disclaimer</a></li>
+          <li><a href="categories.html">Categories</a></li>
+        </ul>
+      </nav>
+      <div class="search-bar">
+        <input type="search" id="searchInput" placeholder="Search articles…" aria-label="Search articles">
+        <button aria-label="Submit search">⌕</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <div class="container">
+    <!-- CONTACT INTRO -->
+    <section class="contact-intro">
+      <h1>Contact the editorial team</h1>
+      <p>We welcome thoughtful pitches, reader letters and considered enquiries about interior design, architecture and the built environment.</p>
+    </section>
+
+    <!-- LAYOUT GRID: MAIN + SIDEBAR -->
+    <div class="layout-main">
+      <!-- MAIN COLUMN -->
+      <main>
+        <!-- CONTACT GRID: FORM + INFO -->
+        <div class="contact-grid">
+          <!-- FORM -->
+          <div class="contact-form">
+            <h2>Send a message</h2>
+            <p>Whether you're pitching an article idea, responding to something we've published, or simply saying hello — we read every message.</p>
+
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="contactName">Your name</label>
+                <input type="text" id="contactName" name="name" placeholder="e.g. James Whitfield" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contactEmail">Email address</label>
+                <input type="email" id="contactEmail" name="email" placeholder="you@example.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contactSubject">Subject</label>
+                <select id="contactSubject" name="subject">
+                  <option value="pitch">Article pitch</option>
+                  <option value="letter">Reader letter</option>
+                  <option value="editorial">Editorial enquiry</option>
+                  <option value="press">Press / media</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="contactMessage">Your message</label>
+                <textarea id="contactMessage" name="message" placeholder="Tell us what's on your mind…" required></textarea>
+              </div>
+
+              <button type="submit" class="form-submit">Send message</button>
+              <p class="form-note">We aim to respond within 3–5 working days. By submitting, you agree to our privacy policy.</p>
+            </form>
+          </div>
+
+          <!-- INFO PANEL -->
+          <div class="contact-info-panel">
+            <div class="contact-info-block">
+              <h3>Editorial enquiries</h3>
+              <p>For pitches, commissions and general editorial correspondence:</p>
+              <p><a href="mailto:hello@draevenhouselines.com">hello@draevenhouselines.com</a></p>
+            </div>
+
+            <hr class="contact-divider">
+
+            <div class="contact-info-block">
+              <h3>Reader letters</h3>
+              <p>We love hearing from readers. Letters may be edited for length and clarity.</p>
+              <p><a href="mailto:letters@draevenhouselines.com">letters@draevenhouselines.com</a></p>
+            </div>
+
+            <hr class="contact-divider">
+
+            <div class="contact-info-block">
+              <h3>Postal address</h3>
+              <ul class="contact-details-list">
+                <li>Draeven House Lines</li>
+                <li>14 Fitzroy Street</li>
+                <li>London W1T 4BQ</li>
+                <li>United Kingdom</li>
+              </ul>
+            </div>
+
+            <hr class="contact-divider">
+
+            <div class="contact-info-block">
+              <h3>Follow</h3>
+              <p>We share new articles and behind-the-scenes notes on social media.</p>
+              <ul class="contact-details-list">
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Pinterest</a></li>
+                <li><a href="#">LinkedIn</a></li>
+              </ul>
+            </div>
+
+            <div class="response-promise">
+              <p>“Every message reaches a human — not a bot. We read carefully and reply as thoughtfully as we can.”</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ABOUT / CONTACT / PRIVACY / TERMS QUICK REFERENCE -->
+        <div class="info-sections" id="about">
+          <div>
+            <h4>About</h4>
+            <p>Draeven House Lines is an independent editorial publication exploring interior design, architecture and the art of living well. We publish long-form articles, guides and criticism.</p>
+          </div>
+          <div>
+            <h4>Contact</h4>
+            <p>Editorial: <a href="mailto:hello@draevenhouselines.com">hello@draevenhouselines.com</a></p>
+            <p>We welcome thoughtful pitches and reader letters.</p>
+          </div>
+          <div>
+            <h4>Privacy</h4>
+            <p>We collect only the information you voluntarily provide (e.g. email for newsletter). We never sell or share your data.</p>
+          </div>
+          <div>
+            <h4>Terms &amp; Cookies</h4>
+            <p>By using this site you agree to our <a href="#">terms</a> and <a href="#">cookie policy</a>. We use minimal, functional cookies only.</p>
+          </div>
+        </div>
+
+        <!-- NEWSLETTER -->
+        <section class="newsletter">
+          <h2>Draeven House Lines — weekly</h2>
+          <p>One thoughtful email each Sunday. Articles, inspiration and practical design wisdom. No noise.</p>
+          <form class="newsletter-form" id="newsletterForm">
+            <input type="email" placeholder="Your email address" required aria-label="Email address">
+            <button type="submit">Subscribe</button>
+          </form>
+          <p style="font-size: 0.75rem; margin-top: 1rem; color: var(--muted);">We respect your inbox. Unsubscribe anytime.</p>
+        </section>
+      </main>
+
+      <!-- SIDEBAR -->
+      <aside class="sidebar">
+        <!-- AUTHOR BOX -->
+        <div class="author-box">
+          <div class="name">Elena Marchetti</div>
+          <p style="font-size: 0.85rem;">Editor-in-chief</p>
+          <p style="font-size: 0.85rem; color: var(--muted);">Elena is an architecture writer and former interior designer. She founded Draeven House Lines to bring depth and nuance to design journalism.</p>
+        </div>
+
+        <!-- POPULAR ARTICLES -->
+        <div class="sidebar-widget">
+          <h3>Most read</h3>
+          <ul>
+            <li><a href="#">The New Minimalism: Warmth, Texture and Restraint</a><span class="meta">Interiors · 12 min</span></li>
+            <li><a href="#">Concrete, Glass and Light: A Case for Quiet Modernism</a><span class="meta">Architecture · 9 min</span></li>
+            <li><a href="#">Stone, Timber, Clay: A Guide to Honest Materials</a><span class="meta">Materials · 11 min</span></li>
+            <li><a href="#">Layered Light: The Quiet Power of Illumination</a><span class="meta">Lighting · 7 min</span></li>
+          </ul>
+        </div>
+
+        <!-- CATEGORIES -->
+        <div class="sidebar-widget">
+          <h3>Categories</h3>
+          <ul>
+            <li><a href="#">Interior Design</a> <span class="meta">(24)</span></li>
+            <li><a href="#">Architecture</a> <span class="meta">(18)</span></li>
+            <li><a href="#">Home Design</a> <span class="meta">(16)</span></li>
+            <li><a href="#">Materials</a> <span class="meta">(12)</span></li>
+            <li><a href="#">Space Planning</a> <span class="meta">(9)</span></li>
+            <li><a href="#">Lighting</a> <span class="meta">(11)</span></li>
+            <li><a href="#">Furniture</a> <span class="meta">(8)</span></li>
+            <li><a href="#">Modern Homes</a> <span class="meta">(14)</span></li>
+          </ul>
+        </div>
+
+        <!-- EDITOR'S NOTE -->
+        <div class="sidebar-widget">
+          <h3>Editor’s note</h3>
+          <p style="font-size: 0.9rem; color: var(--muted);">“We believe good design is a quiet act of care — for the people who live in a space and for the world outside it. Every article we publish is written with that in mind.”</p>
+        </div>
+      </aside>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="site-footer container">
+    <div>© 2025 Draeven House Lines. All rights reserved.</div>
+    <div class="footer-links">
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="cookies.html">Cookies</a>
+    </div>
+  </footer>
+
+  <!-- JAVASCRIPT -->
+  <script>
+    (function() {
+      // ---------- CONTACT FORM ----------
+      const contactForm = document.getElementById('contactForm');
+      contactForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        const name = document.getElementById('contactName').value.trim();
+        const email = document.getElementById('contactEmail').value.trim();
+        const subject = document.getElementById('contactSubject').value;
+        const message = document.getElementById('contactMessage').value.trim();
+
+        if (name && email && message) {
+          alert('Thank you, ' + name + '. Your message has been received. (This is a demo — no data is sent.)');
+          contactForm.reset();
+        } else {
+          alert('Please fill in all required fields.');
+        }
+      });
+
+      // ---------- NEWSLETTER FORM (prevent actual submission) ----------
+      const newsletterForm = document.getElementById('newsletterForm');
+      newsletterForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        const emailInput = this.querySelector('input[type="email"]');
+        if (emailInput.value.trim() !== '') {
+          alert('Thank you for subscribing to Draeven House Lines. (This is a demo — no data is sent.)');
+          emailInput.value = '';
+        }
+      });
+
+      // ---------- SEARCH FUNCTIONALITY ----------
+      const searchInput = document.getElementById('searchInput');
+      const searchButton = document.querySelector('.search-bar button');
+      // On contact page, search redirects to homepage with query (simple demo behaviour)
+      function performSearch() {
+        const query = searchInput.value.trim();
+        if (query !== '') {
+          // In a real site, redirect to search results page.
+          // For this demo, we just alert.
+          alert('Searching for: "' + query + '"\n(This is a demo — search functionality is on the homepage.)');
+        }
+      }
+      searchButton.addEventListener('click', performSearch);
+      searchInput.addEventListener('keyup', function(e) {
+        if (e.key === 'Enter') {
+          performSearch();
+        }
+      });
+
+      // ---------- SMOOTH SCROLL FOR INTERNAL LINKS (optional) ----------
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+          const href = this.getAttribute('href');
+          if (href === '#') return;
+          const target = document.querySelector(href);
+          if (target) {
+            e.preventDefault();
+            target.scrollIntoView({ behavior: 'smooth' });
+          }
+        });
+      });
+    })();
+  </script>
+</body>
+</html>
